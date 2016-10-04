@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;GameConfiguration.java&apos; to &apos;assignment2.Header.java&apos;&#x0A;- Original project: &apos;Project 2 Mastermind&apos;&#x0A;- Destination element: &apos;assignment2.Header.java&apos;&#x0A;- Original element: &apos;GameConfiguration.java&apos;&#x0A;- Update references to refactored element" description="Move file" destination="=Project 2 Mastermind Project/src&lt;assignment2{Header.java" element1="GameConfiguration.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1474861550876" units="0" version="1.0"/>
+</session>

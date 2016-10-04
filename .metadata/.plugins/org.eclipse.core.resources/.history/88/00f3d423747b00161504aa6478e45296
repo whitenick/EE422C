@@ -1,0 +1,8 @@
+package classwork8_Lists;
+
+public interface ClosedShapeInterface {
+	
+	public double extension;
+	
+	public int ret;
+}

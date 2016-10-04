@@ -1,0 +1,39 @@
+package classwork8_Lists;
+
+import java.util.*;
+import java.io.File;
+//import java.util.Scanner;
+
+public class Lists {
+
+}
+
+/*list: a collection storing an ordered sequence of elements
+ * ArrayList methods : addAll, contains, containsAll, equals, iterator, list iterator, lastIndexof, remove, removeAll, retainAll, subList, toArray;
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+
+class ArrayListTester extends Lists {
+	public static void main(String[] args) {
+		ArrayList<String> l1 = new ArrayList<String>();
+		l1.add("hello");
+		l1.add("bye");
+		l1.add("zebra");
+		
+		ArrayList<String> words = new ArrayList<String>();
+		File infile = new File("Shape.java");
+		Scanner inscan = new Scanner(infile);
+		while(inscan.hasNext()) {
+			words.add(inscan.next());
+		}
+	}
+}
