@@ -12,7 +12,9 @@
  */
 package assignment4;
 
+import java.io.File;
 import java.util.List;
+import java.util.Scanner;
 
 /* see the PDF for descriptions of the methods and fields in this class
  * you may add fields, methods or inner classes to Critter ONLY if you make your additions private
@@ -39,7 +41,11 @@ public abstract class Critter {
 		rand = new java.util.Random(new_seed);
 	}
 	
+	//Critter document read and prepared for annotation 
 	
+	public static void setFile(Scanner scan){
+		
+	}
 	/* a one-character long string that visually depicts your critter in the ASCII interface */
 	public String toString() { return ""; }
 	
